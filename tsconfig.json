@@ -1,0 +1,12 @@
+{
+  "extends": "@tsconfig/node16-strictest-esm/tsconfig.json",
+  "include": ["src"],
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "lib",
+    "baseUrl": "src",
+    "paths": {
+      "~/*": ["./*"]
+    }
+  }
+}
