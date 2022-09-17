@@ -18,4 +18,42 @@
 
 ## Overview
 
-wip
+Library for React. hooks can use `map`.
+
+## Use case
+
+```ts
+import useSWR from "swr";
+import type { SWRResponse } from "swr";
+
+type MainRes = {
+  value: string;
+};
+
+// Easy to test because it does not use A
+const businessLogic = (p: SWRResponse<MainRes>) => {
+  if (p.data.value === "foo") {
+    return {
+      ...p,
+      data: {
+        ...p.data,
+        isFoo: true,
+      },
+    };
+  }
+  return {
+    ...p,
+    data: {
+      ...p.data,
+      isFoo: false,
+    },
+  };
+};
+
+const useMain = () => {
+  const res = useMap({ useHook: () => useSWR("/main", fetchMain) })
+    .map(businessLogic)
+    // Can be continuous.
+    .map((v) => v).value;
+};
+```
