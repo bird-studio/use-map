@@ -1,7 +1,8 @@
 {
-  "extends": "@tsconfig/node16-strictest-esm/tsconfig.json",
+  "extends": "@tsconfig/node16-strictest/tsconfig.json",
   "include": ["src"],
   "compilerOptions": {
+    "target": "es5",
     "rootDir": "src",
     "outDir": "lib",
     "baseUrl": "src",
