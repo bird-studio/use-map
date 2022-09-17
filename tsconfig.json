@@ -3,6 +3,7 @@
   "include": ["src"],
   "compilerOptions": {
     "target": "es5",
+    "declaration": true,
     "rootDir": "src",
     "outDir": "lib",
     "baseUrl": "src",
