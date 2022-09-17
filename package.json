@@ -20,7 +20,7 @@
   "scripts": {
     "qualityCheck": "run-s qualityCheck:*",
     "qualityCheck:type": "tsc --project ./tsconfig.build.json --noEmit",
-    "qualityCheck:unitTest": "jest --coverage ",
+    "qualityCheck:unitTest": "jest",
     "qualityCheck:redundancy": "jscpd src",
     "qualityCheck:findDeadCode": "ts-prune --error",
     "qualityCheck:esLint": "eslint --max-warnings 0 --ignore-path .gitignore .",
