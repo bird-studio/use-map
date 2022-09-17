@@ -1,12 +1,17 @@
-const o = <T>(p: T) => ({
-  map: <F extends (p: T) => ReturnType<F>>(f: F) => o(f(p)),
-  value: p,
-});
-
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 type Fn = (...arg: any) => any;
-type UseMap = <Hook extends Fn>(p: { useHook: Hook }) => ReturnType<typeof o>;
 
+const m = <T>(p: T) => ({
+  value: p,
+  map: <F extends Fn>(f: F) => m(f(p)),
+});
+
+type M<T> = {
+  value: T;
+  map: <R>(f: (p: T) => R) => M<R>;
+};
+
+type UseMap = <Hook extends Fn>(p: { useHook: Hook }) => M<ReturnType<Hook>>;
 export const useMap: UseMap = ({ useHook }) => ({
-  ...o(useHook()),
+  ...m(useHook()),
 });
