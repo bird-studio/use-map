@@ -30,7 +30,7 @@ type MainRes = {
   value: string;
 };
 
-// Easy to test because it does not use A
+// Easy to test because it does not use hook
 const businessLogic = (p: SWRResponse<MainRes>) => {
   if (p.data.value === "foo") {
     return {
