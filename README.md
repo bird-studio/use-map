@@ -18,7 +18,7 @@
 
 ## Overview
 
-Library for React. hooks can use `map`.
+hooks can use `map`.
 It is a very lightweight library. There are no dependencies.
 
 ## Use case
