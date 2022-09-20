@@ -19,8 +19,11 @@
 ## Overview
 
 Library for React. hooks can use `map`.
+It is a very lightweight library. There are no dependencies.
 
 ## Use case
+
+### with `useSWR`
 
 ```ts
 import useSWR from "swr";
@@ -55,5 +58,40 @@ const useMain = () => {
     .map(businessLogic)
     // Can be continuous.
     .map((v) => v).value;
+};
+```
+
+### with `useQuery`
+
+```ts
+import { useQuery } from "@apollo/client";
+
+// Easy to test because it does not use hook
+const reducer = (p) => {
+  if (p.loading) {
+    return {
+      type: "loading",
+    };
+  }
+
+  if (p.error) {
+    return {
+      type: "error",
+      ...p,
+    };
+  }
+
+  if (p.data) {
+    return {
+      type: "success",
+      data: p.data,
+    };
+  }
+
+  return new Error("🤬");
+};
+
+const useMain = () => {
+  const res = useMap({ useHook: () => useQuery(QUERY) }).map(reducer);
 };
 ```
