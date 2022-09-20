@@ -92,6 +92,6 @@ const reducer = (p) => {
 };
 
 const useMain = () => {
-  const res = useMap({ useHook: () => useQuery(QUERY) }).map(reducer);
+  const res = useMap({ useHook: () => useQuery(QUERY) }).map(reducer).value;
 };
 ```

@@ -1,4 +1,4 @@
-import { useMap } from "./useMap";
+import { useMap, f } from "./useMap";
 
 describe("useMap", () => {
   test("map", () => {
