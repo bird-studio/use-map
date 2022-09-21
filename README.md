@@ -21,6 +21,10 @@
 hooks can use `map`.
 It is a very lightweight library. There are no dependencies.
 
+```bash
+npm i @bird-studio/use-map
+```
+
 ## Use case
 
 ### with `useSWR`
@@ -28,6 +32,7 @@ It is a very lightweight library. There are no dependencies.
 ```ts
 import useSWR from "swr";
 import type { SWRResponse } from "swr";
+import { useMap } from "@bird-studio/use-map";
 
 type MainRes = {
   value: string;
@@ -65,6 +70,7 @@ const useMain = () => {
 
 ```ts
 import { useQuery } from "@apollo/client";
+import { useMap } from "@bird-studio/use-map";
 
 // Easy to test because it does not use hook
 const reducer = (p) => {
