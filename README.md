@@ -71,6 +71,7 @@ const useMain = () => {
 ```ts
 import { useQuery } from "@apollo/client";
 import { useMap } from "@bird-studio/use-map";
+import { QUERY } from "./QUERY";
 
 // Easy to test because it does not use hook
 const reducer = (p) => {
