@@ -1,6 +1,6 @@
 {
   "name": "@bird-studio/use-map",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "Add map to React hooks",
   "keywords": [
     "react",
