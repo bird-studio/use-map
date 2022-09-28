@@ -1558,9 +1558,9 @@
   integrity sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==
 
 "@types/node@*", "@types/node@>=12.0":
-  version "18.7.18"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.7.18.tgz#633184f55c322e4fb08612307c274ee6d5ed3154"
-  integrity sha512-m+6nTEOadJZuTPkKR/SYK3A2d7FZrgElol9UP1Kae90VVU4a6mxnPuLiIW1m4Cq4gZ/nWb9GrdVXJCoCazDAbg==
+  version "18.7.23"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.7.23.tgz#75c580983846181ebe5f4abc40fe9dfb2d65665f"
+  integrity sha512-DWNcCHolDq0ZKGizjx2DZjR/PqsYwAcYUJmfMWqtVU2MBMG5Mo+xFZrhGId5r/O5HOuMPyQEcM6KUBp5lBZZBg==
 
 "@types/node@16.9.1":
   version "16.9.1"
@@ -4890,9 +4890,9 @@ jest-watcher@^29.0.3:
     string-length "^4.0.1"
 
 jest-worker@^29.0.3:
-  version "29.0.3"
-  resolved "https://registry.yarnpkg.com/jest-worker/-/jest-worker-29.0.3.tgz#c2ba0aa7e41eec9eb0be8e8a322ae6518df72647"
-  integrity sha512-Tl/YWUugQOjoTYwjKdfJWkSOfhufJHO5LhXTSZC3TRoQKO+fuXnZAdoXXBlpLXKGODBL3OvdUasfDD4PcMe6ng==
+  version "29.1.0"
+  resolved "https://registry.yarnpkg.com/jest-worker/-/jest-worker-29.1.0.tgz#374d741b976a868e39141d63fb401abacc07a8c9"
+  integrity sha512-yr7RFRAxI+vhL/cGB9B0FhD+QfaWh1qSxurx7gLP16dfmqhG8w75D/CQFU8ZetvhiQqLZh8X0C4rxwsZy6HITQ==
   dependencies:
     "@types/node" "*"
     merge-stream "^2.0.0"
