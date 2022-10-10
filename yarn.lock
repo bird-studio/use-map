@@ -323,10 +323,10 @@
     eslint-config-prettier "8.5.0"
     eslint-plugin-jest "27.0.4"
 
-"@bird-studio/interactive-message@5.0.6":
-  version "5.0.6"
-  resolved "https://registry.yarnpkg.com/@bird-studio/interactive-message/-/interactive-message-5.0.6.tgz#3620b09204b7d50cec7e3c40c546c8628f6fdef0"
-  integrity sha512-WgCf260p54/EQ/Bp5QvzcpdY7V/A26Fawfr5MkAeaP8A3kqboTrauPFpwlUBGWKBvYHcbTFHPJOpW9yUxeWKMw==
+"@bird-studio/interactive-message@5.0.7":
+  version "5.0.7"
+  resolved "https://registry.yarnpkg.com/@bird-studio/interactive-message/-/interactive-message-5.0.7.tgz#cb4b645d2a3223cc9978b85a4a3a43c07e230826"
+  integrity sha512-Y6EqE+vVnKi3b7XiKqq2X32FvDA9F9rWZgz0hrxDK3vLxyKWhA/7hK2zKc6OmEGYp30kPUgmMxBVAQ/nmX+FCg==
   dependencies:
     "@nut-tree/nut-js" "2.3.0"
     "@octokit/rest" "19.0.4"
