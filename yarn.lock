@@ -4918,12 +4918,12 @@ jest-regex-util@^29.2.0:
   integrity sha512-6yXn0kg2JXzH30cr2NlThF+70iuO/3irbaB4mh5WyqNIvLLP+B6sFdluO1/1RJmslyh/f9osnefECflHvTbwVA==
 
 jest-resolve-dependencies@^29.2.0:
-  version "29.2.0"
-  resolved "https://registry.yarnpkg.com/jest-resolve-dependencies/-/jest-resolve-dependencies-29.2.0.tgz#a127b7d6b7df69d4eaf2c7c99f652f17ba0fed71"
-  integrity sha512-Cd0Z39sDntEnfR9PoUdFHUAGDvtKI0/7Wt73l3lt03A3yQ+A6Qi3XmBuqGjdFl2QbXaPa937oLhilG612P8HGQ==
+  version "29.2.1"
+  resolved "https://registry.yarnpkg.com/jest-resolve-dependencies/-/jest-resolve-dependencies-29.2.1.tgz#8d717dd41dc615fef1d412d395ea3deccfb1b9fa"
+  integrity sha512-o3mUGX2j08usj1jIAIE8KmUVpqVAn54k80kI27ldbZf2oJn6eghhB6DvJxjrcH40va9CQgWTfU5f2Ag/MoUqgQ==
   dependencies:
     jest-regex-util "^29.2.0"
-    jest-snapshot "^29.2.0"
+    jest-snapshot "^29.2.1"
 
 jest-resolve@^29.2.0, jest-resolve@^29.2.1:
   version "29.2.1"
@@ -5023,37 +5023,7 @@ jest-runtime@^29.2.1:
     slash "^3.0.0"
     strip-bom "^4.0.0"
 
-jest-snapshot@^29.2.0:
-  version "29.2.0"
-  resolved "https://registry.yarnpkg.com/jest-snapshot/-/jest-snapshot-29.2.0.tgz#fb3d4e1d9df579f37d7c60072877ee99376b6090"
-  integrity sha512-YCKrOR0PLRXROmww73fHO9oeY4tL+LPQXWR3yml1+hKbQDR8j1VUrVzB65hKSJJgxBOr1vWx+hmz2by8JjAU5w==
-  dependencies:
-    "@babel/core" "^7.11.6"
-    "@babel/generator" "^7.7.2"
-    "@babel/plugin-syntax-jsx" "^7.7.2"
-    "@babel/plugin-syntax-typescript" "^7.7.2"
-    "@babel/traverse" "^7.7.2"
-    "@babel/types" "^7.3.3"
-    "@jest/expect-utils" "^29.2.0"
-    "@jest/transform" "^29.2.0"
-    "@jest/types" "^29.2.0"
-    "@types/babel__traverse" "^7.0.6"
-    "@types/prettier" "^2.1.5"
-    babel-preset-current-node-syntax "^1.0.0"
-    chalk "^4.0.0"
-    expect "^29.2.0"
-    graceful-fs "^4.2.9"
-    jest-diff "^29.2.0"
-    jest-get-type "^29.2.0"
-    jest-haste-map "^29.2.0"
-    jest-matcher-utils "^29.2.0"
-    jest-message-util "^29.2.0"
-    jest-util "^29.2.0"
-    natural-compare "^1.4.0"
-    pretty-format "^29.2.0"
-    semver "^7.3.5"
-
-jest-snapshot@^29.2.1:
+jest-snapshot@^29.2.0, jest-snapshot@^29.2.1:
   version "29.2.1"
   resolved "https://registry.yarnpkg.com/jest-snapshot/-/jest-snapshot-29.2.1.tgz#f3843b3099c8fec7e6218dea18cc506f10ea5d30"
   integrity sha512-KZdLD7iEz5M4ZYd+ezZ/kk73z+DtNbk/yJ4Qx7408Vb0CCuclJIZPa/HmIwSsCfIlOBNcYTKufr7x/Yv47oYlg==
