@@ -319,10 +319,10 @@
     eslint-config-prettier "8.5.0"
     eslint-plugin-jest "27.1.3"
 
-"@bird-studio/interactive-message@5.0.11":
-  version "5.0.11"
-  resolved "https://registry.yarnpkg.com/@bird-studio/interactive-message/-/interactive-message-5.0.11.tgz#32b5ff1733f6ae1a4687cb62e53ef6d6a33def7e"
-  integrity sha512-Mq6Q1S+EWE9URKdKRmUuYDgW4S6p3NhAiCwNAWUBjo4wqvN3mpCZKyBlu185JRledeSxXpeFP0etBIvFegasYQ==
+"@bird-studio/interactive-message@5.0.12":
+  version "5.0.12"
+  resolved "https://registry.yarnpkg.com/@bird-studio/interactive-message/-/interactive-message-5.0.12.tgz#f88b985c1ab2e6f18f6f48eaf4ac102bef79e961"
+  integrity sha512-WTidVAUmbHB0AcbMf0kPMG6LP+f8rTxjVYBAu/qx6pJ/gOteK7CQzlmZ3WVcahkWf/ybw83e+JO+x+SGM/dEPg==
   dependencies:
     "@nut-tree/nut-js" "2.3.0"
     "@octokit/rest" "19.0.5"
@@ -330,7 +330,7 @@
     cli-color "2.0.3"
     cosmiconfig "8.0.0"
     deepl-node "1.7.2"
-    gitmojis "3.13.0"
+    gitmojis "3.13.1"
     ini "3.0.1"
     inquirer "~8"
     inquirer-search-list "1.2.6"
@@ -3888,10 +3888,10 @@ gitignore-to-glob@^0.3.0:
   resolved "https://registry.yarnpkg.com/gitignore-to-glob/-/gitignore-to-glob-0.3.0.tgz#59f32ab3d9b66ce50299c3ed24cb0ef42a094ceb"
   integrity sha512-mk74BdnK7lIwDHnotHddx1wsjMOFIThpLY3cPNniJ/2fA/tlLzHnFxIdR+4sLOu5KGgQJdij4kjJ2RoUNnCNMA==
 
-gitmojis@3.13.0:
-  version "3.13.0"
-  resolved "https://registry.yarnpkg.com/gitmojis/-/gitmojis-3.13.0.tgz#4723017832f0b97b284a1aed32cc384cc35f2c7e"
-  integrity sha512-vBRPLpEakxS6oJrX7IoJqEEigNFgXdLCnGv9EaH0+txozhpvat+PvdDH3h+mM4adgGAA932Za3Hgeupt5/XqyQ==
+gitmojis@3.13.1:
+  version "3.13.1"
+  resolved "https://registry.yarnpkg.com/gitmojis/-/gitmojis-3.13.1.tgz#0bc1111611b3adc726f7ba8a4b1c25fbc457a449"
+  integrity sha512-HA9iV+NBT8UR3T8LlUgPtvMKcBJa7RKenljoJhScWT/0gaggeQtyqXbPzLTv3u6BptTNOdadFDV5PiXMUDn2+g==
 
 glob-parent@^5.1.2, glob-parent@~5.1.2:
   version "5.1.2"
