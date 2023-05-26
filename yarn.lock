@@ -851,6 +851,18 @@
     "@types/yargs" "^17.0.8"
     chalk "^4.0.0"
 
+"@jest/types@^29.5.0":
+  version "29.5.0"
+  resolved "https://registry.yarnpkg.com/@jest/types/-/types-29.5.0.tgz#f59ef9b031ced83047c67032700d8c807d6e1593"
+  integrity sha512-qbu7kN6czmVRc3xWFQcAN03RAUamgppVUdXrvl1Wr3jlNF93o9mJbGcDWrwGB6ht44u7efB1qCFgVQmca24Uog==
+  dependencies:
+    "@jest/schemas" "^29.4.3"
+    "@types/istanbul-lib-coverage" "^2.0.0"
+    "@types/istanbul-reports" "^3.0.0"
+    "@types/node" "*"
+    "@types/yargs" "^17.0.8"
+    chalk "^4.0.0"
+
 "@jimp/bmp@^0.16.2":
   version "0.16.2"
   resolved "https://registry.yarnpkg.com/@jimp/bmp/-/bmp-0.16.2.tgz#3982879b10626fc8cf1b4ab8627158bad142ec9d"
@@ -5632,12 +5644,12 @@ jest-watcher@^29.3.1, jest-watcher@^29.5.0:
     string-length "^4.0.1"
 
 jest-worker@^29.3.1:
-  version "29.3.1"
-  resolved "https://registry.yarnpkg.com/jest-worker/-/jest-worker-29.3.1.tgz#e9462161017a9bb176380d721cab022661da3d6b"
-  integrity sha512-lY4AnnmsEWeiXirAIA0c9SDPbuCBq8IYuDVL8PMm0MZ2PEs2yPvRA/J64QBXuZp7CYKrDM/rmNrc9/i3KJQncw==
+  version "29.5.0"
+  resolved "https://registry.yarnpkg.com/jest-worker/-/jest-worker-29.5.0.tgz#bdaefb06811bd3384d93f009755014d8acb4615d"
+  integrity sha512-NcrQnevGoSp4b5kg+akIpthoAFHxPBcb5P6mYPY0fUNT+sSvmtu6jlkEle3anczUKIKEbMxFimk9oTP/tpIPgA==
   dependencies:
     "@types/node" "*"
-    jest-util "^29.3.1"
+    jest-util "^29.5.0"
     merge-stream "^2.0.0"
     supports-color "^8.0.0"
 
