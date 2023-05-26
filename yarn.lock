@@ -803,11 +803,11 @@
     write-file-atomic "^4.0.2"
 
 "@jest/types@^29.3.1":
-  version "29.3.1"
-  resolved "https://registry.yarnpkg.com/@jest/types/-/types-29.3.1.tgz#7c5a80777cb13e703aeec6788d044150341147e3"
-  integrity sha512-d0S0jmmTpjnhCmNpApgX3jrUZgZ22ivKJRvL2lli5hpCRoNnp1f85r2/wpKfXuYu8E7Jjh1hGfhPyup1NM5AmA==
+  version "29.5.0"
+  resolved "https://registry.yarnpkg.com/@jest/types/-/types-29.5.0.tgz#f59ef9b031ced83047c67032700d8c807d6e1593"
+  integrity sha512-qbu7kN6czmVRc3xWFQcAN03RAUamgppVUdXrvl1Wr3jlNF93o9mJbGcDWrwGB6ht44u7efB1qCFgVQmca24Uog==
   dependencies:
-    "@jest/schemas" "^29.0.0"
+    "@jest/schemas" "^29.4.3"
     "@types/istanbul-lib-coverage" "^2.0.0"
     "@types/istanbul-reports" "^3.0.0"
     "@types/node" "*"
