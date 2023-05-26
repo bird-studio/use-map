@@ -954,14 +954,21 @@
   dependencies:
     eventemitter3 "^4.0.4"
 
-"@jscpd/finder@^3.5.1":
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/@jscpd/finder/-/finder-3.5.1.tgz#31e002adaeb7282d04bb318659a1a72a4a6c430e"
-  integrity sha512-9+hpaJkr4W90A4h8coS0ibfvUQRk0VvpwrLLNH0+kAJMKk7uYgqFEj/5Agy1kS0VFZwJEnmkXSvWp8NjFqUhGQ==
+"@jscpd/core@^3.5.4":
+  version "3.5.4"
+  resolved "https://registry.yarnpkg.com/@jscpd/core/-/core-3.5.4.tgz#0dff08af5e071d22ba35dcb5701fb008338d2b32"
+  integrity sha512-jf37O5C8/Pe4/FbSvgW+IDBwWkRfBCDzJGx4c+zrbq52CIY4ZvREfi1kw6BaE6C6Xz84FgfpKYOuSW/8gTk83A==
   dependencies:
-    "@jscpd/core" "^3.5.0"
-    "@jscpd/tokenizer" "^3.5.1"
-    blamer "^1.0.1"
+    eventemitter3 "^4.0.4"
+
+"@jscpd/finder@^3.5.1":
+  version "3.5.5"
+  resolved "https://registry.yarnpkg.com/@jscpd/finder/-/finder-3.5.5.tgz#d46211c762ed62c72428914313f528a3cd550f41"
+  integrity sha512-RAaSnqZWe66JnYsUABvXBPfS9Z8U4GmLLa/IQkxZIOWxlt7g4ohs3FxJNv61bQdBbD0NQ6Xxvd4jntac8FKftg==
+  dependencies:
+    "@jscpd/core" "^3.5.4"
+    "@jscpd/tokenizer" "^3.5.4"
+    blamer "^1.0.3"
     bytes "^3.1.0"
     cli-table3 "^0.6.0"
     colors "1.4.0"
@@ -984,6 +991,15 @@
   integrity sha512-Tj8ehnb4AyfdsfR2w1Lp/62e4AwyMKD53NJ7KpLcmh74BqzfwbDgi7QBNfL9L/FJfhovt24uxG3JNOIEYONixw==
   dependencies:
     "@jscpd/core" "^3.5.0"
+    reprism "^0.0.11"
+    spark-md5 "^3.0.1"
+
+"@jscpd/tokenizer@^3.5.4":
+  version "3.5.4"
+  resolved "https://registry.yarnpkg.com/@jscpd/tokenizer/-/tokenizer-3.5.4.tgz#23a54d359f0848f418bd01c77129384e24acc12d"
+  integrity sha512-qvGbHNFaGXqMqgw0cujRqSM2cuPBAR9EOtZNUx4eGQ6IeuJhsS+aI0ijEUOE1OdVBStdu5xYdyytuLkkmtJzHA==
+  dependencies:
+    "@jscpd/core" "^3.5.4"
     reprism "^0.0.11"
     spark-md5 "^3.0.1"
 
@@ -2203,14 +2219,13 @@ bl@^4.1.0:
     inherits "^2.0.4"
     readable-stream "^3.4.0"
 
-blamer@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/blamer/-/blamer-1.0.1.tgz#0453b2e94764fb71d2a913c198fff0335fe875aa"
-  integrity sha512-o6d0m9rcEEQXF3+L/wnFPxngqwc1Oxkr/WJ3IdpTfTb0HxOpRLkhC7RAfEEkHIzU66YFjG7N5oEstvE72cnQNQ==
+blamer@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/blamer/-/blamer-1.0.3.tgz#a130c1d82028167eba0250b3d01d066d1b7f2621"
+  integrity sha512-JalDFXndGCrTkKakC7C0H5I09ognGQrl3xJZ6wPwtiuX+9h/qcH1PbTnW+MD6mJku1ISmOAwzeWaXT79D3kg3g==
   dependencies:
     execa "^4.0.0"
     which "^2.0.2"
-    xml2js "^0.4.23"
 
 bluebird@~3.4.1:
   version "3.4.7"
@@ -8526,7 +8541,7 @@ xml-parse-from-string@^1.0.0:
   resolved "https://registry.yarnpkg.com/xml-parse-from-string/-/xml-parse-from-string-1.0.1.tgz#a9029e929d3dbcded169f3c6e28238d95a5d5a28"
   integrity sha512-ErcKwJTF54uRzzNMXq2X5sMIy88zJvfN2DmdoQvy7PAFJ+tPRU6ydWuOKNMyfmOjdyBQTFREi60s0Y0SyI0G0g==
 
-xml2js@^0.4.23, xml2js@^0.4.5:
+xml2js@^0.4.5:
   version "0.4.23"
   resolved "https://registry.yarnpkg.com/xml2js/-/xml2js-0.4.23.tgz#a0c69516752421eb2ac758ee4d4ccf58843eac66"
   integrity sha512-ySPiMjM0+pLDftHgXY4By0uswI3SPKLDw/i3UXbnO8M/p28zqexCUoPmQFrYD+/1BzhGJSs2i1ERWKJAtiLrug==
