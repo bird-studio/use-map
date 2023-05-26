@@ -454,15 +454,15 @@
   integrity sha512-ZXRY4jNvVgSVQ8DL3LTcakaAtXwTVUxE81hslsyD2AtoXW/wVob10HkOJ1X/pAlcI7D+2YoZKg5do8G/w6RYgA==
 
 "@jest/console@^29.3.1":
-  version "29.3.1"
-  resolved "https://registry.yarnpkg.com/@jest/console/-/console-29.3.1.tgz#3e3f876e4e47616ea3b1464b9fbda981872e9583"
-  integrity sha512-IRE6GD47KwcqA09RIWrabKdHPiKDGgtAL31xDxbi/RjQMsr+lY+ppxmHwY0dUEV3qvvxZzoe5Hl0RXZJOjQNUg==
+  version "29.5.0"
+  resolved "https://registry.yarnpkg.com/@jest/console/-/console-29.5.0.tgz#593a6c5c0d3f75689835f1b3b4688c4f8544cb57"
+  integrity sha512-NEpkObxPwyw/XxZVLPmAGKE89IQRp4puc6IQRPru6JKd1M3fW9v1xM1AnzIJE65hbCkzQAdnL8P47e9hzhiYLQ==
   dependencies:
-    "@jest/types" "^29.3.1"
+    "@jest/types" "^29.5.0"
     "@types/node" "*"
     chalk "^4.0.0"
-    jest-message-util "^29.3.1"
-    jest-util "^29.3.1"
+    jest-message-util "^29.5.0"
+    jest-util "^29.5.0"
     slash "^3.0.0"
 
 "@jest/console@^29.5.0":
@@ -804,6 +804,18 @@
     write-file-atomic "^4.0.2"
 
 "@jest/types@^29.3.1", "@jest/types@^29.5.0":
+  version "29.5.0"
+  resolved "https://registry.yarnpkg.com/@jest/types/-/types-29.5.0.tgz#f59ef9b031ced83047c67032700d8c807d6e1593"
+  integrity sha512-qbu7kN6czmVRc3xWFQcAN03RAUamgppVUdXrvl1Wr3jlNF93o9mJbGcDWrwGB6ht44u7efB1qCFgVQmca24Uog==
+  dependencies:
+    "@jest/schemas" "^29.4.3"
+    "@types/istanbul-lib-coverage" "^2.0.0"
+    "@types/istanbul-reports" "^3.0.0"
+    "@types/node" "*"
+    "@types/yargs" "^17.0.8"
+    chalk "^4.0.0"
+
+"@jest/types@^29.5.0":
   version "29.5.0"
   resolved "https://registry.yarnpkg.com/@jest/types/-/types-29.5.0.tgz#f59ef9b031ced83047c67032700d8c807d6e1593"
   integrity sha512-qbu7kN6czmVRc3xWFQcAN03RAUamgppVUdXrvl1Wr3jlNF93o9mJbGcDWrwGB6ht44u7efB1qCFgVQmca24Uog==
