@@ -1010,12 +1010,12 @@
     load-bmfont "^1.4.0"
 
 "@jimp/plugin-resize@^0.16.2":
-  version "0.16.2"
-  resolved "https://registry.yarnpkg.com/@jimp/plugin-resize/-/plugin-resize-0.16.2.tgz#7bcca41d9959667fb1e6e87bd6073ce0dbc43bc4"
-  integrity sha512-gE4N9l6xuwzacFZ2EPCGZCJ/xR+aX2V7GdMndIl/6kYIw5/eib1SFuF9AZLvIPSFuE1FnGo8+vT0pr++SSbhYg==
+  version "0.16.13"
+  resolved "https://registry.yarnpkg.com/@jimp/plugin-resize/-/plugin-resize-0.16.13.tgz#6267087f724d47e7bb8824c5b842d9315f50b8e7"
+  integrity sha512-qoqtN8LDknm3fJm9nuPygJv30O3vGhSBD2TxrsCnhtOsxKAqVPJtFVdGd/qVuZ8nqQANQmTlfqTiK9mVWQ7MiQ==
   dependencies:
     "@babel/runtime" "^7.7.2"
-    "@jimp/utils" "^0.16.2"
+    "@jimp/utils" "^0.16.13"
 
 "@jimp/plugin-rotate@^0.16.2":
   version "0.16.2"
