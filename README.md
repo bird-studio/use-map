@@ -95,7 +95,7 @@ const reducer = (p) => {
     };
   }
 
-  return new Error("🤯");
+  return new Error("🤬");
 };
 
 const useMain = () => {
