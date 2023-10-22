@@ -8,7 +8,10 @@
     "hooks"
   ],
   "homepage": "https://github.com/bird-studio/use-map",
-  "repository": "https://github.com/bird-studio/use-map",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bird-studio/use-map.git"
+  },
   "license": "MIT",
   "author": "akira-toriyama",
   "main": "lib/index.js",
