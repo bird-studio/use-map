@@ -5,7 +5,7 @@ const m = <T>(p: T) =>
   ({
     value: p,
     map: <F extends Fn>(f: F) => m(f(p)),
-  } as const);
+  }) as const;
 
 type M<T> = {
   value: T;
