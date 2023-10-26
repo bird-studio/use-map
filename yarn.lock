@@ -1364,9 +1364,9 @@
     bottleneck "^2.15.3"
 
 "@octokit/plugin-throttling@^8.0.0":
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/@octokit/plugin-throttling/-/plugin-throttling-8.1.0.tgz#038e00c9c2c858b906805d787465d82ba935ba50"
-  integrity sha512-QfClJJhS+sZEFz0NX3Wm6E3q9059dZU3dTVNEZHS9i/rI8bOqPviIeGW255lzT+25/6HflVZYejo1hnr3LF68A==
+  version "8.1.2"
+  resolved "https://registry.yarnpkg.com/@octokit/plugin-throttling/-/plugin-throttling-8.1.2.tgz#8f1ca739bc5f00cf59ced81a7ae53037f9b1b4ef"
+  integrity sha512-oFba+ioR6HGb0fgqxMta7Kpk/MdffUTuUxNY856l1nXPvh7Qggp8w4AksRx1SDA8SGd+4cbrpkY4k1J/Xz8nZQ==
   dependencies:
     "@octokit/types" "^12.0.0"
     bottleneck "^2.15.3"
