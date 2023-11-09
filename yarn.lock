@@ -4565,9 +4565,9 @@ indent-string@^5.0.0:
   integrity sha512-m6FAo/spmsW2Ab2fU35JTYwtOKa2yAwXSwgjSv1TJzh4Mh7mC3lzAOVLBprb72XsTrgkEIsl7YrFNAiDiRhIGg==
 
 index-to-position@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/index-to-position/-/index-to-position-0.1.0.tgz#9723e10d73190ab5f176d128703112d1d1ee6a3e"
-  integrity sha512-I6PLk0E6Jk8t/W212xp9euPed30tIN9mYdslb0Vkd03hG9sd0pByboBdtIRL+Y/103JLp1alP3OuMgxfbIQyFw==
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/index-to-position/-/index-to-position-0.1.1.tgz#7c7abf3f9ffd20dd3ec9a09995dbba3a68069a9b"
+  integrity sha512-9VI2GKITENQfskAToKRYaOgulVD/lq2/KfVDEbaa/REbCXxmlnJCmF6KH1Ew16/Fq7lWvFa6r0OHouue5qHm9g==
 
 inflight@^1.0.4:
   version "1.0.6"
