@@ -4536,9 +4536,9 @@ import-fresh@^3.2.1, import-fresh@^3.3.0:
     resolve-from "^4.0.0"
 
 import-from-esm@^1.0.3:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/import-from-esm/-/import-from-esm-1.2.1.tgz#326cee2df3e7b7013f4cef0c9c9b048dbf3b7f42"
-  integrity sha512-Nly5Ab75rWZmOwtMa0B0NQNnHGcHOQ2zkU/bVENwK2lbPq+kamPDqNKNJ0hF7w7lR/ETD5nGgJq0XbofsZpYCA==
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/import-from-esm/-/import-from-esm-1.2.2.tgz#ea38a47fac2674fc6040281963b000a986a20d60"
+  integrity sha512-3zUdjs/TkCPknfR1qoWlApqIfODZfO2tt4H39DsiOXgRW5//ctDhN7I+I3sRLhdIzGiJ+uLBo772grnCmLggMA==
   dependencies:
     import-meta-resolve "^4.0.0"
 
