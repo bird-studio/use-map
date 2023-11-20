@@ -1597,10 +1597,10 @@
   resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.27.8.tgz#6667fac16c436b5434a387a34dedb013198f6e6e"
   integrity sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==
 
-"@sindresorhus/is@^3.1.2":
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-3.1.2.tgz#548650de521b344e3781fbdb0ece4aa6f729afb8"
-  integrity sha512-JiX9vxoKMmu8Y3Zr2RVathBL1Cdu4Nt4MuNWemt1Nc06A0RAin9c5FArkhGsyMBWfCu4zj+9b+GxtjAnE4qqLQ==
+"@sindresorhus/is@^6.0.0":
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-6.1.0.tgz#71a4ca5171888fb7fc36c6d1ff3604b0a5e43555"
+  integrity sha512-BuvU07zq3tQ/2SIgBsEuxKYDyDjC0n7Zir52bpHy2xnBbW81+po43aLFPLbeV3HRAheFbGud1qgcqSYfhtHMAg==
 
 "@sindresorhus/merge-streams@^1.0.0":
   version "1.0.0"
@@ -6247,11 +6247,11 @@ node-addon-api@3.0.0:
   integrity sha512-sSHCgWfJ+Lui/u+0msF3oyCgvdkhxDbkCS6Q8uiJquzOimkJBvX6hl5aSSA7DR1XbMpdM8r7phjcF63sF4rkKg==
 
 node-emoji@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/node-emoji/-/node-emoji-2.1.0.tgz#93c99b0d3dfe7d5e37c056aded389e013c72d0c5"
-  integrity sha512-tcsBm9C6FmPN5Wo7OjFi9lgMyJjvkAeirmjR/ax8Ttfqy4N8PoFic26uqFTIgayHPNI5FH4ltUvfh9kHzwcK9A==
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/node-emoji/-/node-emoji-2.1.1.tgz#188e0abb6f03335155cc3dae219f7555c5d37012"
+  integrity sha512-+fyi06+Z9LARCwnTmUF1sRPVQFhGlIpuye3zwlzMN8bIKou6l7k1rGV8WVOEu9EQnRLfoVOYj/p107u0CoQoKA==
   dependencies:
-    "@sindresorhus/is" "^3.1.2"
+    "@sindresorhus/is" "^6.0.0"
     char-regex "^1.0.2"
     emojilib "^2.4.0"
     skin-tone "^2.0.0"
