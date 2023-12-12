@@ -5723,9 +5723,9 @@ libnpmorg@^6.0.1:
     npm-registry-fetch "^16.0.0"
 
 libnpmpack@^6.0.3:
-  version "6.0.3"
-  resolved "https://registry.yarnpkg.com/libnpmpack/-/libnpmpack-6.0.3.tgz#65df2f32c524e381010617fc9c34afbf7d52a5b4"
-  integrity sha512-+XV6/KVGYJ2TvqeJfBhSJgrXWV3OiFPYCKGavNwNBFmAtRRrj7OoV6a/+C0HDo7D0PFEDktdBHW47EciUgHx+g==
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/libnpmpack/-/libnpmpack-6.0.4.tgz#61d6e479f8d3049ca23b2fdae38165dd0a0c67a0"
+  integrity sha512-fvwmLPR5vveBeBFdbb5UGHgXSRIjI/JWGIT9JyAXE7ax1GAPdsMSgAP8/OBZat2pQGJhKjRHL5tgvwZ1u6Vi7Q==
   dependencies:
     "@npmcli/arborist" "^7.2.1"
     "@npmcli/run-script" "^7.0.2"
