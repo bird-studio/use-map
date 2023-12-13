@@ -5702,9 +5702,9 @@ libnpmfund@^5.0.1:
     "@npmcli/arborist" "^7.2.1"
 
 libnpmhook@^10.0.0:
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/libnpmhook/-/libnpmhook-10.0.0.tgz#8aba53d124bac812fbd37350ee4a6a0e5ac0e3ff"
-  integrity sha512-PdEuOC1woGbrmxsvMdZCLYFirwtroIaxCzire/h55BfnqHOC73yQylIe9V2T9/1WL6f+PXIoZETR0dhJpLLFWQ==
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/libnpmhook/-/libnpmhook-10.0.1.tgz#3cb9516645f0d6891b4a59c72ffe026bdbb9bd6b"
+  integrity sha512-FnXCweDpoAko6mnLPSW8qrRYicjfh+GrvY5PuYHQRPvaW4BFtHDUmK3K3aYx4yD3TeGAKpj4IigrEDfUfWuSkA==
   dependencies:
     aproba "^2.0.0"
     npm-registry-fetch "^16.0.0"
