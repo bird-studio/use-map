@@ -5675,9 +5675,9 @@ libnpmexec@^7.0.4:
     walk-up-path "^3.0.1"
 
 libnpmfund@^5.0.1:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/libnpmfund/-/libnpmfund-5.0.2.tgz#461ee81a8c8be45c2970957d0095da8db13e2546"
-  integrity sha512-rKILSU9zQMkSIAst3QaoqqomqD6NosKALuXjx4hSjt2VUqrzFrGcAu1/e3YCBVdyFo80HFvGbx0AwooXXLilMQ==
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/libnpmfund/-/libnpmfund-5.0.3.tgz#40235dffb1f610475c864702445020c4b3441199"
+  integrity sha512-Kb/fJZNAOG6uIHkhkUah+HfLYqqyuc3s65cPWiwGz1nta8ta79PaexzstGxvGrMA/JFfjZ0BMOejM6zB1aXA8g==
   dependencies:
     "@npmcli/arborist" "^7.2.1"
 
